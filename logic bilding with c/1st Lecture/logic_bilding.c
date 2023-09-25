@@ -154,17 +154,17 @@
 // ==========[ print the greatest number among the 3 numbers with (" WITH CONDITIONAL OPERATOR ") ]===========
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main()
-{
-        int a,b,c;
-        printf("Enter the 3 differeant number you want to compare:");
-        scanf("%d%d%d ",&a,&b,&c);
+// int main()
+// {
+//         int a,b,c;
+//         printf("Enter the 3 differeant number you want to compare:");
+//         scanf("%d%d%d ",&a,&b,&c);
 
-    printf("%d", a>b ? a>c?a:c: b>c?b:c);
-     return 0;
-}
+//     printf("%d", a>b ? a>c?a:c: b>c?b:c);
+//      return 0;
+// }
 
 
 
@@ -184,4 +184,22 @@ int main()
 
 //     return 0;
 // }
+
+
+
+// =====================[  ]============================
+
+#include<stdio.h>
+
+int main()
+{
+    int a=10;
+    for(int i=1;i<=a;i++)
+    {
+       printf("%d\n",i);
+    }
+    printf("%d",a);
+
+}
+
 
